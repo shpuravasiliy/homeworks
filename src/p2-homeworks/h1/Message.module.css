@@ -14,7 +14,7 @@
     "a f e e e";
 grid-auto-columns: auto;
     /*justify-items: center;*/
-    align-items: center;
+    align-items: end;
 }
 
 .avatar {
