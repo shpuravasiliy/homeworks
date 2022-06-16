@@ -1,7 +1,9 @@
-.someClass {
-
+.errorText {
+    color: red;
+    font-size: 12px;
+    height: 21px;
 }
 
-.error {
+.errorBorder {
     border: 1px solid red;
 }
