@@ -1,8 +1,8 @@
 import React from 'react'
 import {AffairType} from './HW2';
+import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
 
 type AffairPropsType = {
-    // key не нужно типизировать
     affair: AffairType
     deleteAffairCallback: (_id: number) => void
 }
@@ -14,7 +14,7 @@ function Affair(props: AffairPropsType) {
         <tr>
             <td>{props.affair.name}</td>
             <td>{props.affair.priority}</td>
-            <button onClick={deleteCallback}>X</button>
+            <SuperButton onClick={deleteCallback}>X</SuperButton>
         </tr>
     )
 }

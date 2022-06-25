@@ -1,7 +1,21 @@
 .default {
+    padding: 3px;
+    margin: 3px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    border: 1px solid black;
+}
 
+.default:hover {
+    box-shadow: 0 0 3px aqua;
 }
 
 .red {
-    background: red;
+    background-color: red;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.red:hover {
+    box-shadow: 0 0 3px indianred;
 }

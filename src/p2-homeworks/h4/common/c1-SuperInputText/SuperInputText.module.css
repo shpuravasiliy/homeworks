@@ -1,12 +1,23 @@
 .superInput {
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    background: aliceblue;
+    margin: 5px;
+    box-shadow: 0 0 3px darkgray;
+}
 
+.superInput:focus {
+    outline: black 1px solid;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    box-shadow: 0 0 3px red;
+}
+.errorInput:focus {
+    outline: red 1px solid;
 }
 
 .errorBorder {
     color: red;
+    font-size: 12px;
 }
