@@ -14,7 +14,7 @@ function Affair(props: AffairPropsType) {
         <tr>
             <td>{props.affair.name}</td>
             <td>{props.affair.priority}</td>
-            <SuperButton onClick={deleteCallback}>X</SuperButton>
+            <td><SuperButton onClick={deleteCallback}>X</SuperButton></td>
         </tr>
     )
 }
