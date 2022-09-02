@@ -14,10 +14,18 @@
     color: aqua;
 }
 
-.some {
-    background: lightgreen;
+.white {
+    background: inherit;
 }
 
-.some-text {
-    color: darkslateblue;
+.white-text {
+    color: inherit;
+}
+
+.blue {
+    background: aqua
+}
+
+.blue-text {
+    color: red;
 }
