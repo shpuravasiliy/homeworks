@@ -1,0 +1,39 @@
+.response {
+    color: red;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+.imageBlock {
+    display: flex;
+    justify-content: end;
+    margin: 3rem;
+    flex: 1;
+}
+
+.image {
+    width: 451px;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 3rem;
+    flex: 1;
+}
+
+.textTitle {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: .75rem 0;
+}
+
+.textDescription {
+    font-weight: 500;
+    line-height: 1.25rem;
+}
